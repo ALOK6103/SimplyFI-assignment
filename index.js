@@ -1,10 +1,10 @@
 
 
-object={
+tickets={
     "Paris":"Skopj",
     "Zurich":"Amsterdam",
     "Prague":"Zurich",
-    "Barcelona":"Berlin",
+    "Barcelon":"Berlin",
     "Kiev": "Prague",
     "Skojp":"Paris",
     "Amsterdam":"Barcelona",
@@ -30,7 +30,7 @@ while(count<6){
     visited_city[cur_city]=true
     ans=ans+cur_city 
     ans=ans+"->"
-    cur_city=object[cur_city]
+    cur_city=tickets[cur_city]
 }
 
 console.log(ans)
