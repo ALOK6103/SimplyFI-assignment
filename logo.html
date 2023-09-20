@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        width: 400px;
+        height: 600px;
+        border: 2px solid black;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(41, 40, 40);
+      }
+      .content {
+        color: white;
+      }
+
+      .rhombus {
+        position: relative;
+        width: 200px; /* Adjust the width of the rhombus */
+        height: 200px;
+        border: 10px solid blue;
+        /* Keep the diagonal length (height) fixed */
+        /* background-color: blue; */
+        transform: rotate(45deg);
+        overflow: hidden;
+      }
+
+      .main-content {
+        padding-top: 25px;
+        transform: rotate(-45deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="rhombus">
+        <div class="main-content">
+          <h2 class="content">HTML & CSS</h2>
+
+          <p class="content">Design and build websites</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
