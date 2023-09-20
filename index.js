@@ -4,7 +4,7 @@ tickets={
     "Paris":"Skopj",
     "Zurich":"Amsterdam",
     "Prague":"Zurich",
-    "Barcelon":"Berlin",
+    "Barcelona":"Berlin",
     "Kiev": "Prague",
     "Skojp":"Paris",
     "Amsterdam":"Barcelona",
